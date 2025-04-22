@@ -1,0 +1,82 @@
+:root {
+  /* Customize these colors */
+  --color-background: #FAF9F6;
+  --color-text: #333333;
+  --color-primary: #000000;
+  --color-secondary: #000000;
+  --color-accent: #F6F75E;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  line-height: 1.6;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  font-size: 2.5rem;  color: var(--color-primary);
+}
+
+header .subtitle {
+  color: var(--color-secondary);
+  margin-top: 5px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+nav a:hover {
+  color: var(--color-accent);
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  font-size: 1.75rem;
+  padding-bottom: 5px;
+  margin-bottom: 0px;
+}
+
+ul {
+  list-style-position: inside;
+  margin-left: 0;
+  padding-left: 1.2em;
+}
+
+#cvres {
+    padding-top: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--color-secondary);
+  margin-top: 40px;
+}
