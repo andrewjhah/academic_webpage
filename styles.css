@@ -4,7 +4,7 @@
   --color-text: #333333;
   --color-primary: #000000;
   --color-secondary: #000000;
-  --color-accent: #F6F75E;
+  --color-accent: #A7ACD9;
 }
 
 * {
@@ -79,4 +79,12 @@ footer {
   font-size: 0.875rem;
   color: var(--color-secondary);
   margin-top: 40px;
+}
+
+a:hover {
+  background-color: var(--color-accent);
+}
+
+a {      
+  border-radius: 4px;          
 }
