@@ -97,3 +97,8 @@ header .subtitle {
 #about {
   margin-bottom: 25px;
 }
+
+.contact-line {
+  margin-top: 0.75em;   /* or whatever small value you like */
+  margin-bottom: 0.75em;
+}
